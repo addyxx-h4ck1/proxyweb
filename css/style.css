@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* headre */
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2d0080;
+}
+.header-wrapper{
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+    flex-direction: column;
+}
+/* headre */
+/* landing */
+.section-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2d0080;
+}
+.section-1-wrapper{
+    padding-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    top: 0;
+    width: 100%;
+    background-color: #2d0080;
+}
+
+.intro{
+    max-width: 600px;
+    padding: 0 1rem;
+}
+.section-1-wrapper h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+.section-1-wrapper p{
+    font-size: 17px;
+    color: aliceblue;
+}
+@media screen and (max-width: 1000px){
+    .section-1-wrapper{
+        flex-wrap: wrap;
+    }
+    .intro{
+       text-align: center;
+       width: 100%;
+    }
+}
+
+.section-1-wrapper .a{
+   padding: 15px;
+   background-color: darkorange;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+}
+.section-1-wrapper .b{
+   padding: 15px;
+   background-color: white;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   margin-top: 1rem;
+}
+.section-1-wrapper .a a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.section-1-wrapper .b a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+@media screen and (max-width: 400px){
+    .section-1-wrapper h1{
+        font-size: 30px;
+        color: aliceblue;
+    }
+    .section-1-wrapper p{
+        font-size: 15px;
+        color: aliceblue;
+    }
+    .section-1-wrapper .a{
+        padding: 13px;
+        background-color: darkorange;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+     }
+     .section-1-wrapper .b{
+        padding: 13px;
+        background-color: white;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        margin-top: .5rem;
+     }
+     .section-1-wrapper .a a{
+         text-decoration: none;
+         font-size: 13px;
+         color: black;
+     }
+     .section-1-wrapper .b a{
+         text-decoration: none;
+         font-size: 13px;
+         color: black;
+     }
+}
+/* landing */
