@@ -87,6 +87,7 @@ header{
 @media screen and (max-width: 400px){
     .section-1-wrapper h1{
         font-size: 30px;
+        color: red;
     }
 }
 /* landing */
