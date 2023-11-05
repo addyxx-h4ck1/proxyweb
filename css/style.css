@@ -123,10 +123,22 @@ header{
 }
 .sec-1-card h4{
     color: #2d0080;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
 }
 .sec-1-card button{
     padding: 15px;
+    background-color: #2d0080;
+    outline: none;
+    border: 1px solid black;
+}
+.sec-1-card button a{
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;
+}
+.sec-1-card button:hover{
+    background-color: darkorange;
+    transition: all 1s;
 }
 /* section-2 */
