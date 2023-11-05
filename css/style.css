@@ -26,6 +26,7 @@ header{
 }
 .section-1-wrapper{
     padding-top: 2rem;
+    padding-bottom: 3rem;
     display: flex;
     align-items: flex-start;
     align-items: center;
@@ -85,7 +86,7 @@ header{
 }
 @media screen and (max-width: 400px){
     .section-1-wrapper h1{
-        font-size: 30px;
+        font-size: 25px;
         color: aliceblue;
     }
     .section-1-wrapper p{
