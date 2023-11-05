@@ -202,7 +202,7 @@ header{
 @media screen and (max-width: 800px){
     .section-3-wrapper h2{
         font-size: 30px;
-        line-height: 2rem;
+        line-height: 2.5rem;
         color: #2d0080;
     }
     .section-3-wrapper{
