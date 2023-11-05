@@ -110,7 +110,7 @@ header{
     width: 100%;
 }
 .sec-1-card{
-   
+
     max-width: 350px;
     box-shadow: 0 0 10px;
     padding: 0 .5rem;
@@ -376,7 +376,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+
 }
 .section-7-wrapper{
     display: flex;
@@ -413,3 +413,45 @@ header{
 }
 
 /* section 7 */
+
+/* section 8 */
+.section-8{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-8-wrapper{
+    max-width: 1500px;
+    width: 100%;
+}
+.section-8-wrapper ul{
+    columns: 2;
+    padding-right:1rem;
+    padding-left:1.5rem;
+    line-height: 2rem;
+    gap: 2rem;
+    box-shadow: 0 0 10px;
+    margin: 0 1rem;
+    list-style-type: none;
+}
+.section-8-wrapper ul strong{
+    color: #2d0080;
+    font-size: 20px;
+}
+.section-8-wrapper ul li{
+    padding-bottom: 1rem;
+}
+.section-8-wrapper h2{
+    font-size: 40px;
+    padding-left: .5rem;
+    color: #2d0080;
+}
+.section-8-wrapper .fa-check{
+    color: rgb(0, 255, 0);
+}
+@media screen and (max-width: 650px){
+    .section-8-wrapper ul{
+        columns: 1;
+    }
+}
+/* section 8 */
