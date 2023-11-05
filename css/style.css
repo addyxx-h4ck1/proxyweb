@@ -51,7 +51,7 @@ header{
 }
 @media screen and (max-width: 1000px){
     .section-1-wrapper{
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
     }
     .intro{
        text-align: center;
