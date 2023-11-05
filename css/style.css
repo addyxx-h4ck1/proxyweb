@@ -86,7 +86,7 @@ header{
 }
 @media screen and (max-width: 400px){
     .section-1-wrapper h1{
-        font-size: 25px;
+        font-size: 20px;
         color: aliceblue;
     }
     .section-1-wrapper p{
