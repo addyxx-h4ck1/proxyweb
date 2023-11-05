@@ -86,37 +86,7 @@ header{
 }
 @media screen and (max-width: 400px){
     .section-1-wrapper h1{
-        font-size: 20px;
-        color: aliceblue;
+        font-size: 30px;
     }
-    .section-1-wrapper p{
-        font-size: 15px;
-        color: aliceblue;
-    }
-    .section-1-wrapper .a{
-        padding: 13px;
-        background-color: darkorange;
-        outline: none;
-        border: none;
-        border-radius: 10px;
-     }
-     .section-1-wrapper .b{
-        padding: 13px;
-        background-color: white;
-        outline: none;
-        border: none;
-        border-radius: 10px;
-        margin-top: .5rem;
-     }
-     .section-1-wrapper .a a{
-         text-decoration: none;
-         font-size: 13px;
-         color: black;
-     }
-     .section-1-wrapper .b a{
-         text-decoration: none;
-         font-size: 13px;
-         color: black;
-     }
 }
 /* landing */
