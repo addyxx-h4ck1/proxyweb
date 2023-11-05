@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -44,9 +45,10 @@ header{
 .section-1-wrapper h1{
     font-size: 40px;
     color: aliceblue;
+    font-family: 'Roboto', sans-serif;
 }
 .section-1-wrapper p{
-    font-size: 17px;
+    font-size: 15px;
     color: aliceblue;
 }
 @media screen and (max-width: 1000px){
@@ -88,6 +90,8 @@ header{
     .section-1-wrapper h1{
         font-size: 30px;
         color: red;
+        width: 100%;
     }
+    
 }
 /* landing */
