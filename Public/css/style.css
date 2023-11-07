@@ -89,10 +89,17 @@ header{
     .section-1-wrapper img{
         width: 100%;
     }
+    .section-1-content h1{
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .section-1-content h1 span{
+        display: none;
+    }
 }
 @media screen and (max-width: 500px){
     .section-1-content h1{
-        font-size: 40px;
+        font-size: 43px;
     }
 }
 /* section -1 */
