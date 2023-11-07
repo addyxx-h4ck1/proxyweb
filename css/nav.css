@@ -4,8 +4,11 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    z-index: 1000;
   }
-  
+  header{
+    z-index: 1000;
+  }
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -62,6 +65,7 @@
     position: absolute;
     background-color: #2d0080;
     min-width: 160px;
+    width: 250px;
     box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -134,3 +138,85 @@
       text-align: left;
     }
   }
+
+
+
+
+
+
+
+
+  /* links */
+  .fa-whatsapp{
+    color: rgb(0, 253, 0);
+    padding: 5px;
+    margin: 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.fa-facebook{
+    color: blue;
+    padding: 5px;
+    margin: 5px;
+    background-color: #ddd;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}   
+.fa-linkedin{
+    color: white;
+    background-color:blue;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.fa-x-twitter{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.fa-github{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.fa-phone{
+    color: rgb(5, 255, 5);
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.fa-envelope{
+    color: rgb(9, 5, 255);
+    background-color: #ddd;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.fa:hover{
+  background-color: transparent;
+  transition: all .5s;
+}
+.fa-brands:hover{
+  background-color: transparent;
+  transition: all .5s;
+}
+  /* links */

@@ -8,9 +8,6 @@ html{
     scroll-behavior: smooth;
 }
 header{
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     background-color: #2d0080;
     padding-bottom: .5rem;
 }
@@ -514,10 +511,10 @@ header{
 }
 .div-flex{
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     width: 100%;
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 800px){
     .div-flex{
         display: block;
         padding-bottom: 1rem;
@@ -616,17 +613,26 @@ header{
     border-radius: 50%;
 }   
 .fa-linkedin{
-    color: blue;
-    background-color: #ddd;
+    color: white;
+    background-color:blue;
     padding: 5px;
     border-radius: 50%;
     margin: 5px;
     width: 30px;
     height: 30px;
 }
-.fa-twitter{
-    color: white;
-    background-color: blue;
+.fa-x-twitter{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+.fa-github{
+    color: black;
+    background-color: white;
     padding: 5px;
     border-radius: 50%;
     margin: 5px;
@@ -642,16 +648,8 @@ header{
     width: 30px;
     height: 30px;
 }
-.fa-envelope-open-o{
-    color: rgb(9, 5, 255);
-    background-color: #ddd;
-    padding: 5px;
-    border-radius: 50%;
-    margin: 5px;
-    width: 30px;
-    height: 30px;
-}
-.fa-envelope-open{
+
+.fa-envelope{
     color: rgb(9, 5, 255);
     background-color: #ddd;
     padding: 5px;
@@ -741,6 +739,7 @@ footer .center{
        align-items: flex-start;
        padding-bottom: 1rem;
    }
+   /* links */
    footer .center div{
     width: 220px;
    }
@@ -761,5 +760,8 @@ footer .center a:hover {
     background-color: transparent;
     transition: all .5s;
 }
-
+.fa-brands:hover{
+    background-color: transparent;
+    transition: all .5s;
+}
 /* footer */
