@@ -27,79 +27,227 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #2d0080;
 }
 .section-1-wrapper{
     display: flex;
     align-items: center;
     max-width: 1500px;
     width: 100%;
-    height: 500px;
     line-height: 2rem;
-   background-color: #2d0080;
+    background-color: rgba(0, 0, 0, 0.712);
+    height: 100%;
 }
-
-.section-1-content{
-    padding: 0 1rem;
-}
-.section-1-wrapper img{
-    width: 50%;
-    flex-grow: 1;
-    object-fit: cover;
-}
-.section-1-content p{
-    max-width: 600px;
-    padding: 1rem 1rem;
-    font-size: 18px;
-    color: aliceblue;
-}
-.section-1-content h1{
-    font-size: 60px;
-   color: #ddd;
-   line-height: 3rem;
-}
-.section-1-content button{
-    margin-top: 1rem;
-    padding: 15px;
-    background-color: darkorange;
-    outline: none;
-    border: none;
-}
-.section-1-content button:hover{
-    padding: 15px;
-    background-color: darkorange;
-    outline: none;
-    border: none;
+.overlay{
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1650954933593-6c9342ba0331?q=80&w=1643&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-attachment: fixed;
     transition: all .4s;
 }
-.section-1-content button a{
+
+.section-1-wrapper div:first-child{
+    padding-left: 1rem;
+    width: 50%;
+}
+@media screen and (max-width: 700px){
+    .section-1-wrapper div:first-child{
+        padding-left: 1rem;
+        width: 80%;
+    }
+}
+.section-1-wrapper p{
+    padding: 0 1rem;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.section-1-wrapper button{
+    padding: 18px;
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: darkorange;
+}
+.section-1-wrapper button:hover{
+   background-color: #2d0080;
+    transition: all .3s;
+}
+.section-1-wrapper button a{
+    font-size: 18px;
     text-decoration: none;
     color: black;
-    font-size: 18px;
 }
-.section-1-content button a:hover{
+.section-1-wrapper button a:hover{
+    font-size: 18px;
     text-decoration: none;
-    color: rgb(110, 2, 110);
-    font-size: 18px;
+    color: rgb(17, 121, 206);
+    transition: all .3s;
 }
-@media screen and (max-width: 750px){
-    .section-1-wrapper{
-        display: block;
-        height: fit-content;
+.section-1-wrapper h1{
+    padding-left: 1rem;
+    font-size: 70px;
+    line-height: 4rem;
+    color: aliceblue;
+}
+@media screen and (max-width: 428px){
+    .section-1-wrapper h1{
+        padding-bottom: 1rem;
+        font-size: 50px;
+        line-height: 2.5rem;
     }
-    .section-1-wrapper img{
+    .section-1-wrapper div:first-child{
         width: 100%;
-    }
-    .section-1-content h1{
-        padding-top: 2rem;
-        text-align: center;
-    }
-    .section-1-content h1 span{
-        display: none;
+        padding-left: .5rem;
     }
 }
-@media screen and (max-width: 500px){
-    .section-1-content h1{
-        font-size: 40px;
+@media screen and (max-width: 307px){
+    .section-1-wrapper h1{
+        font-size: 30px;
+        line-height: 2.5rem;
     }
+    .section-1-wrapper div:first-child{
+        width: 100%;
+        padding-left: .5rem;
+    }
+}
+.section-1-wrapper img{
+    max-width: 50%;
+    height: 100%;
 }
 /* section -1 */
+
+/* section  2 */
+.section-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-2 h2{
+    font-size: 40px;
+    color: #2d0080;
+    text-align: center;
+    padding: 2rem;
+}
+.section-2-wrapper{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+/* card */
+.top-card{
+    width: 400px;
+}
+.top-card h2{
+    color: #ddd;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: .2rem;
+}
+.top-card:nth-last-of-type(2){
+    box-shadow: 0 0 50px #002544;
+    display: flex;
+    flex-direction: column;
+    background-color: #002544;
+    height: 550px;
+    border-radius: 10px;
+    z-index: 1000;
+    margin: 0 1rem;
+    color: #ddd;
+}
+.top-card:last-child{
+    box-shadow: 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000d8;
+    color: #ddd;
+    border-radius: 10px;
+}
+.top-card:first-child{
+    box-shadow: 0 0 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #010d24;
+    color: #ddd;
+    border-radius: 10px;
+}
+.top-card p{
+   padding: 1rem;
+   font-size: 18px;
+}
+.top-card p i{
+   color: rgb(2, 197, 2);
+   font-weight: 900;
+   font-size: 18px;
+}
+.top-card div{
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+.top-card button{
+    padding: 10px;
+    background-color: transparent;
+    border: .5px solid rgba(0, 0, 0, 0.555);
+    outline: none;
+    width: 40%;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+.top-card button:hover{
+    background-color: darkorange;
+    transition: all .4s;
+}
+.top-card button a{
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    font-size: 18px;
+}
+.top-card button a:hover{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all .4s;
+}
+/* card */
+@media screen and (max-width: 760px){
+    .section-2-wrapper {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 0 .5rem;
+    }
+    .top-card{
+        width: 70%;
+    }
+    .top-card:nth-last-of-type(2){
+        height: fit-content;
+        box-shadow: 0 0 5px;
+    }
+}
+@media screen and (max-width: 600px){
+    .section-2-wrapper {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 0 .5rem;
+    }
+    .top-card{
+        width: 95%;
+    }
+}
+/* section  2 */
