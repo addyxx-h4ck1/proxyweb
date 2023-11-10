@@ -43,7 +43,7 @@ header{
     align-items: center;
     max-width: 1500px;
     width: 100%;
-    background-image: url(https://images.unsplash.com/photo-1650954933593-6c9342ba0331?q=80&w=1643&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://img.freepik.com/free-vector/flat-design-ui-ux-background-illustrated_23-2149054880.jpg?w=740&t=st=1699602787~exp=1699603387~hmac=555b9fa7719ebd357576d671b7532b884b7cc00c3a68b25f8028f202234381fc);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +133,8 @@ header{
     font-size: 40px;
     color: #2d0080;
     text-align: center;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 .section-2-wrapper{
     max-width: 1200px;
@@ -161,7 +162,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #002544;
-    height: 550px;
+    height: 650px;
     border-radius: 10px;
     z-index: 1000;
     margin: 0 1rem;
@@ -194,11 +195,13 @@ header{
 }
 .top-card div{
     text-align: center;
+    line-height: 2rem;
     width: 100%;
     padding: 1rem 0;
+    font-size: 18px;
 }
 .top-card button{
-    padding: 10px;
+    padding: 20px;
     background-color: transparent;
     border: .5px solid rgba(0, 0, 0, 0.555);
     outline: none;
@@ -211,7 +214,7 @@ header{
     transition: all .4s;
 }
 .top-card button a{
-    color: rgb(65, 65, 65);
+    color: green;
     text-decoration: none;
     font-size: 18px;
 }
@@ -251,3 +254,188 @@ header{
     }
 }
 /* section  2 */
+
+/* section 3 */
+.section-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3-wrapper{
+   max-width: 1500px;
+   width: 100%;
+   display: flex;
+}
+.section-3 div{
+   padding-left: .5rem;
+   padding-right: .5rem;
+}
+.section-3 div p{
+    line-height: 2rem;
+}
+.section-3 div h2{
+    padding-bottom: 1rem;
+    font-size: 40px;
+    color: #2d0080;
+}
+.section-3 img{
+    width: 50%;
+    display: block;
+    flex-grow: 1;
+}
+.section-3-wrapper ul{
+    padding-top: 1rem;
+    line-height: 2rem;
+    padding-left: 3rem;
+    color: #002544;
+    columns: 2;
+}
+@media screen and (max-width: 500px){
+    .section-3-wrapper ul{
+        columns: 1;
+    }
+    .section-3-wrapper img{
+        width: 100%;
+        padding: 0 .5px;
+    }
+}
+@media screen and (max-width: 850px){
+    .section-3-wrapper{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+    .section-3-wrapper div h2{
+        font-size: 35px;
+    }
+    .section-3-wrapper img{
+        width: 100%;
+        padding: 0 .5px;
+    }
+}
+/* section 3 */
+
+/* section 4 */
+.section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-4-wrapper{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #010d24e3;
+    
+}
+.book-overlay{
+    max-width: 1500px;
+    width: 100%;
+    display: flex;
+    background-image: url(https://assets.materialup.com/uploads/375c54d9-dede-439f-9ad0-e59dbc688aaa/preview.jpg);
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-4-wrapper form{
+    padding: 0 .5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+form h2{
+    padding: 1rem 0;
+    color: #ffffff;
+}
+.section-4-wrapper form div{
+  display: flex;
+  width: 100%;
+  gap: .7rem;
+}
+.section-4-wrapper form div input{
+  flex-grow: 1;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 10px black;
+  color: aqua;
+}
+@media screen and (max-width: 382px){
+    .section-4-wrapper form div{
+        flex-wrap: wrap;
+    }
+    .section-4-wrapper form div input{
+        flex-grow: 1;
+        width: 100%;
+
+      }
+}
+
+.section-4-wrapper form input{
+    padding: 20px 0;
+    margin-bottom: .5rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px black;
+    color: aqua;
+}
+.section-4-wrapper select{
+    padding: 20PX 0;
+    margin-bottom: .5rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px black;
+    color:bisque;
+}
+.section-4-wrapper textarea{
+    width: 100%;
+    margin-bottom: .5rem;
+    height: 100px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 10px black;
+    color: aqua;
+}
+.section-4-wrapper input::placeholder{
+    color:bisque;
+    padding-left: 1rem;
+}
+.section-4-wrapper textarea::placeholder{
+    color:bisque;
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+.section-4-wrapper input::content{
+    padding-left: 1rem;
+}
+select option{
+    background-color: #000000;
+    padding: 20px;
+    color: #ddd;
+    font-size: 20px;
+}
+select option:first-child{
+    background-color: transparent;
+    padding: 20px;
+    font-size: 20px;
+}
+.section-4-wrapper form input:last-child{
+    margin-bottom: 1rem;
+    color: aqua;
+
+}
+.section-4-wrapper form input:last-child:hover{
+    margin-bottom: 1rem;
+    color: aqua;
+    background-color: rgb(201, 110, 0);
+    color: #000000;
+
+}
+/* section 4 */
