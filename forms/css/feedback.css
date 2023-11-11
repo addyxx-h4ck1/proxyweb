@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+    color: antiquewhite;
+    background-color: #2d0080;
+}
+h2{
+    font-size: 30px;
+    color: rgb(0, 214, 0);
+}
+div{
+    flex-grow: 1;
+}
+img{
+    max-height: 300px;
+    width: 50%;
+    object-fit: cover;
+}
