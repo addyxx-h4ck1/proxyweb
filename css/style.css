@@ -46,14 +46,18 @@ header{
 }
 
 .intro{
-    max-width: 600px;
     padding: 0 1rem;
+}
+.intro p{
+    max-width: 500px;
+    line-height: 2rem;
 }
 .section-1-wrapper h1{
     font-size: 40px;
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
     color: darkorange;
+
 }
 .section-1 .quote-block{
     color: #ddd;
@@ -72,14 +76,28 @@ header{
     color: aliceblue;
     font-family: sans-serif;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1010px){
     .section-1-wrapper{
         flex-wrap: wrap-reverse;
     }
     .intro{
-       text-align: center;
+       text-align: left;
        width: 100%;
     }
+    .intro p{
+       text-align: left;
+       max-width: 100%;
+    }
+}
+@media screen and (max-width: 400px){
+    .section-1-wrapper h1{
+        font-size: 40px;
+        width: 100%;
+    }
+    .intro p{
+        text-align: left;
+        max-width: 100%;
+     }
 }
 
 .section-1-wrapper .a{
@@ -107,12 +125,7 @@ header{
     font-size: 18px;
     color: black;
 }
-@media screen and (max-width: 400px){
-    .section-1-wrapper h1{
-        font-size: 30px;
-        width: 100%;
-    }
-}
+
 /* landing */
 
 /* section-2 */
