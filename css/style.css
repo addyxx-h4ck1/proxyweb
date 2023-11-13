@@ -98,6 +98,14 @@ header{
         text-align: left;
         max-width: 100%;
      }
+     .section-1 .quote-block{
+        color: #ddd;
+        line-height: 2rem;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 600;
+        padding: 0 1rem;
+        text-align: left;
+    }
 }
 
 .section-1-wrapper .a{
