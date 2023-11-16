@@ -9,12 +9,14 @@ section{
     flex-direction: column;
     align-items: center;
     margin: 3rem 2rem;
+    height: 500px;
 }
 body{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #2d0080;
 }
 img{
