@@ -48,3 +48,11 @@ p{
         height: 400px;
     }
 }
+a{
+    color: aliceblue;
+    font-size: 18px;
+}
+a:hover{
+    color: aqua;
+    transition: all .5s;
+}
