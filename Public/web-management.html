@@ -159,7 +159,7 @@
       <div class="book-overlay">
       <div class="section-4-wrapper">
         <div>
-          <form action="" id="booking">
+          <form action="https://formsubmit.co/proxxyweb@gmail.com" method="POST" id="booking">
             <h2>Subscribe</h2>
             <br>
             <div>
@@ -184,8 +184,15 @@
               <option value="Enterprise Pack">Enterprise Pack</option>
             </select>
 
+            <input type="hidden" name="service" value="Web Management">
             <textarea name="message" id="message" name="Message" cols="30" rows="10" placeholder="Complete your request...." required></textarea>
 
+             <!-- formsubmit -->
+             <input type="hidden" name="_next" value="https://proxxyweb.netlify.app/forms/servicebookedpage.html">
+             <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+             <input type="hidden" name="_template" value="table">
+             <input type="hidden" name="_captcha" value="false">
+             <!-- formsubmit -->
             <input type="submit" value="Submit">
         </div>
       </div>

@@ -128,7 +128,7 @@
             </div>
 
             <div>
-                <form action="">
+                <form action="https://formsubmit.co/proxxyweb@gmail.com" method="POST">
                     <h3>Any Questions?</h3>
 
                     <input type="text" name="Full Names" placeholder="Name " required><br>
@@ -137,7 +137,16 @@
 
                     <input type="email" name="Email" placeholder="Provide Your Email" required> <br>
 
+                    <input type="hidden" name="Service" value="Payment-Methods">
+
                     <textarea name="Message" id="message" cols="30" rows="10" placeholder="Type message here..."></textarea> <br>
+
+                     <!-- formsubmit -->
+             <input type="hidden" name="_next" value="https://proxxyweb.netlify.app/forms/servicebookedpage.html">
+             <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+             <input type="hidden" name="_template" value="table">
+             <input type="hidden" name="_captcha" value="false">
+             <!-- formsubmit -->
 
                     <input type="submit" value="Send">
                 </form>

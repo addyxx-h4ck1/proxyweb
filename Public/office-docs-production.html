@@ -167,7 +167,7 @@
       <div class="book-overlay">
       <div class="section-4-wrapper">
         <div>
-          <form action="" id="booking">
+          <form action="https://formsubmit.co/proxxyweb@gmail.com" method="POST" id="booking">
             <h2>Book Package / Service</h2>
             <br>
             <div>
@@ -191,14 +191,22 @@
             </select>
             <select name="Onetime service" id="booking">
                 <option value="Choose">(Onetime services Only) Select Service</option>
-                <option value="">CV's @ksh 500</option>
-                <option value="">Resume @ksh 600</option>
-                <option value="">Cover Letters @ksh 600</option>
-                <option value="">Document Production @ksh 200</option>
-                <option value="">Articles @ksh 300</option>
+                <option value="CV's @ksh 500">CV's @ksh 500</option>
+                <option value="Resume @ksh 600">Resume @ksh 600</option>
+                <option value="Cover Letters @ksh 600">Cover Letters @ksh 600</option>
+                <option value="Document Production @ksh 200">Document Production @ksh 200</option>
+                <option value="Articles @ksh 300">Articles @ksh 300</option>
             </select>
+
+            <input type="hidden" name="Service" value="Office-Production">
             <textarea name="message" id="message" name="Message" cols="30" rows="10" placeholder="Complete your booking...." required></textarea>
 
+            <!-- formsubmit -->
+            <input type="hidden" name="_next" value="https://proxxyweb.netlify.app/forms/servicebookedpage.html">
+            <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <!-- formsubmit -->
             <input type="submit" value="Submit">
         </div>
       </div>
