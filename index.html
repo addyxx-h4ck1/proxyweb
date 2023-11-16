@@ -380,8 +380,14 @@
             <!--  -->
             <section class="top">
                 <h2>ProxyWeb</h2>
-                <form action="">
-                    <input type="email" placeholder="NewsLetter" required>
+                <form action="https://formsubmit.co/proxxyweb@gmail.com" method="POST">
+                    <input type="email" name="News-Letter" placeholder="NewsLetter" required>
+                    <!-- formsubmit -->
+                <input type="hidden" name="_next" value="https://proxxyweb.netlify.app/forms/subscribed.html">
+                <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+                <!-- formsubmit -->
                     <input type="submit" value="Subscribe">
                 </form>
             </section>
